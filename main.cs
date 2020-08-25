@@ -33,7 +33,7 @@ class MainClass {
     Console.Write("Digite a Sua Quarta Nota ->");
     nota4 = float.Parse(Console.ReadLine());
 
-    média = nota1+nota2+nota3+nota4/2;
+    média = (nota1+nota2+nota3+nota4)/4 ;
 
     Console.Write("Sua Média é ->{0}", média);
   }
